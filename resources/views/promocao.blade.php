@@ -13,43 +13,37 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-black navbar-dark"> <!-- Inicio NavBar -->
+<nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
     <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-            <h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="lojas.html">Lojas</a>
+                    <a class="nav-link" href="/lojas">Lojas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="bombando.html">Bombando</a>
+                    <a class="nav-link" href="/bombando">Bombando</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="promocao.html">Promoção</a>
+                    <a class="nav-link" href="/promocao">Promoção</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="suporte.html">Suporte</a>
+                    <a class="nav-link" href="/suporte">Suporte</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto"
-                       aria-label="Pesquisar">
+                <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Pesquisar">
                 <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
             </form>
         </div>
     </div>
-</nav> <!-- Fim NavBar -->
-
+</nav><!-- Fim NavBar -->
 <main style="min-height: 100%;"> <!--Inicio Main-->
     <h2 class="container text-center my-3 my-xl-5">Sem Promoções no Momento</h2>
 
