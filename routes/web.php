@@ -21,5 +21,5 @@ Route::get('/suporte', function () {
 
 //teste
 Route::get('/teste', function () {
-    return view('layout.header-footer');
+    return view('layouts.header-footer');
 });
