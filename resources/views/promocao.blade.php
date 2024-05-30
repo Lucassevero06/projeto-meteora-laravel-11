@@ -52,7 +52,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top"><!-- Inicio NavBar -->
+<nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/lojas">Lojas</a>
@@ -70,7 +70,7 @@
                     <a class="nav-link" href="/bombando">Bombando</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/promocao">Promoção</a>
+                    <a class="nav-link active" href="/promocao">Promoção</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/suporte">Suporte</a>
@@ -83,7 +83,7 @@
         </div>
     </div>
 </nav><!-- Fim NavBar -->
-<main style="min-height: 100%;"> <!--Inicio Main-->
+<main> <!--Inicio Main-->
     <h2 class="container text-center my-3 my-xl-5">Sem Promoções no Momento</h2>
 
     <img src="../assets/emoji-triste-removebg-preview.png" class="rounded mx-auto d-block" alt="emoji triste">
@@ -92,12 +92,11 @@
         Mas você pode conferir nossos produtos que estão <mark class="mark-cor-verde">Bombando</mark>!
     </h3>
 
-    <a href="bombando.html" type="button" class="container d-flex mb-3 w-25 justify-content-center btn btn-outline-dark rounded-0 py-2">Ver</a>
+    <a href="/bombando" type="button" class="container d-flex mb-3 w-25 justify-content-center btn btn-outline-dark rounded-0 py-2">Ver</a>
 </main> <!--Fim Main-->
 
-<footer class="text-center bg-black navbar-fixed-bottom fixed-bottom"><!--Inicio Footer-->
-    <p class="py-1 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem
-        fins comerciais.</p>
+<footer class="text-center bg-black fixed-bottom"><!--Inicio Footer-->
+    <p class="py-lg-3 text-light">2024 Projeto fictício sem fins comerciais.</p>
 </footer> <!--Fim Footer-->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

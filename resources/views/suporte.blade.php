@@ -52,7 +52,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top"><!-- Inicio NavBar -->
+<nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/lojas">Lojas</a>
@@ -73,7 +73,7 @@
                     <a class="nav-link" href="/promocao">Promoção</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/suporte">Suporte</a>
+                    <a class="nav-link active" href="/suporte">Suporte</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
@@ -84,8 +84,8 @@
     </div>
 </nav><!-- Fim NavBar -->
 
-<main style="min-height: 100%;" class="pt-5 pt-lg-1 w-100 container d-flex flex-column align-items-center justify-content-center"> <!--Inicio Form-->
-    <form action="#" class="mt-4 form-control border border-dark p-4 rounded-4 w-75" style="max-width: 600px;">
+<main style="min-height: 100%;" class=" w-100 container d-flex flex-column align-items-center justify-content-center"> <!--Inicio Form-->
+    <form action="#" class=" form-control border border-dark p-4 rounded-4 w-75 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="max-width: 600px;">
         <div>
             <h3 class="text-center text-dark mb-4">Fale Conosco</h3>
             <div class="form-floating mb-3">
@@ -104,8 +104,8 @@
     </form>
 </main> <!--Fim Form-->
 
-<footer class="text-center bg-black fixed-bottom"><!--Inicio Footer-->
-    <p class="py-1 text-light">2024 Projeto fictício sem
+<footer class="text-center bg-black"><!--Inicio Footer-->
+    <p class="py-3 text-light">2024 Projeto fictício sem
         fins comerciais.</p>
 </footer> <!--Fim Footer-->
 

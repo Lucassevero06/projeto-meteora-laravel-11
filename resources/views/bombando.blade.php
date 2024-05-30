@@ -52,7 +52,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top"><!-- Inicio NavBar -->
+<nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,13 +61,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/lojas">Lojas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/bombando">Bombando</a>
+                    <a class="nav-link active" href="/bombando">Bombando</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/promocao">Promoção</a>
@@ -83,6 +83,7 @@
         </div>
     </div>
 </nav><!-- Fim NavBar -->
+
 <h2 class="container text-center my-3 my-xl-5">Produtos que estão Bombando!</h2>
 
 <div class="container row mx-auto g-4">
@@ -151,7 +152,7 @@
             <img class="d-none d-xl-block" src="../../assets/Desktop/produtos/calca.png" alt="fds">
             <div class="card-body">
                 <h5 class="card-title">Calça Alfaiataria</h5>
-                <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda! Bem feminina.</p>
+                <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda!</p>
                 <p>R$180,00</p>
                 <a href="#" class="btn btn-dark rounded-0">Ver mais</a>
             </div>
@@ -175,8 +176,7 @@
 </div> <!-- Fim Produtos -->
 
 <footer class="text-center bg-black"> <!--Inicio Footer-->
-    <p class="py-3 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem
-        fins comerciais.</p>
+    <p class="py-3 text-light">2024 Projeto fictício sem fins comerciais.</p>
 </footer> <!--Fim Footer-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

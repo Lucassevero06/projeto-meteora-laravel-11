@@ -61,10 +61,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/lojas">Lojas</a>
+                    <a class="nav-link active" href="/lojas">Lojas</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/bombando">Bombando</a>
@@ -105,8 +105,7 @@
 </main> <!--Fim Maps-->
 
 <footer class="text-center bg-black"> <!--Inicio Footer-->
-    <p class="py-3 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem
-        fins comerciais.</p>
+    <p class="py-3 text-light">2024 Projeto fictício sem fins comerciais.</p>
 </footer>
 <!--Fim Footer-->
 

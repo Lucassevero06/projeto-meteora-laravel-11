@@ -51,7 +51,7 @@
 </head>
 <body class="m-0 p-0">
 
-    <nav class="navbar navbar-expand-md bg-black navbar-dark sticky-top"><!-- Inicio NavBar -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,7 +134,7 @@
         </button>
     </div> <!-- Fim Carrosel -->
 
-    <h2 class="text-center my-3 my-xl-5 titulos-com-borda">Busque por categoria:</h2>
+    <h2 class="text-center my-3 my-xl-5 titulos-com-borda">Busque por Categoria:</h2>
 
     <div class="container row mx-auto g-4"> <!-- Inicio Categorias -->
 
@@ -231,7 +231,7 @@
                 <img class="d-none d-xl-block" src="../assets/Desktop/produtos/calca.png" alt="fds">
                 <div class="card-body">
                     <h5 class="card-title">Calça Alfaiataria</h5>
-                    <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda! Bem feminina.</p>
+                    <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça para vida toda!</p>
                     <p>R$180,00</p>
                     <a href="#" class="btn btn-dark rounded-0">Ver mais</a>
                 </div>
@@ -254,7 +254,7 @@
 
     </div> <!-- Fim Produtos -->
 
-    <a href="links-navbar/bombando.html" type="button"
+    <a href="/bombando" type="button"
        class="container d-flex mb-3 w-25 justify-content-center btn btn-outline-dark rounded-0 py-2">Ver mais</a>
 
     <section class="py-4 bg-black"><!-- Inicio Facilidades -->
@@ -304,7 +304,7 @@
     </div> <!-- Fim Form -->
 
     <footer class="text-center bg-black"> <!--Inicio Footer-->
-        <p class="py-3 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem fins comerciais.</p>
+        <p class="py-3 text-light">2024 Projeto fictício sem fins comerciais.</p>
     </footer> <!--Fim Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
