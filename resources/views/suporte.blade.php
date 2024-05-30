@@ -44,10 +44,11 @@
         </div>
     </div>
 </nav><!-- Fim NavBar -->
-<main style="min-height: 100%;" class="w-100 container d-flex flex-column align-items-center justify-content-center bg-secondary-subtle"> <!--Inicio Form-->
-    <form action="#" class="form-control border border-dark p-4 rounded-4 w-75 bg-black bg-gradiente" style="max-width: 600px;">
+
+<main style="min-height: 100%;" class="pt-5 w-100 container d-flex flex-column align-items-center justify-content-center"> <!--Inicio Form-->
+    <form action="#" class="mt-4 form-control border border-dark p-4 rounded-4 w-75" style="max-width: 600px;">
         <div>
-            <h3 class="text-center text-light mb-3">Fale Conosco</h3>
+            <h3 class="text-center text-dark mb-4">Fale Conosco</h3>
             <div class="form-floating mb-3">
                 <input type="email" class="form-control focus-ring focus-ring-light px-2 text-decoration-none border rounded-2" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email:</label>
@@ -57,15 +58,15 @@
                 <label for="floatingInputName">Seu nome:</label>
             </div>
             <div>
-                <textarea class="form-control focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2" placeholder="Escreva aqui:" id="floatingTextarea2" rows="4"></textarea>
+                <textarea class="form-control focus-ring focus-ring-light py-1 px-2 text-decoration-none border rounded-2" placeholder="Escreva aqui:" id="floatingTextarea2" rows="6"></textarea>
             </div>
         </div>
-        <button type="button" class="mt-3 btn btn-outline-warning w-100">Enviar</button>
+        <button type="button" class="mt-3 btn btn-outline-dark w-100">Enviar</button>
     </form>
 </main> <!--Fim Form-->
 
-<footer class="text-center bg-black"><!--Inicio Footer-->
-    <p class="py-3 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem
+<footer class="text-center bg-black fixed-bottom"><!--Inicio Footer-->
+    <p class="py-1 text-light">2024 Projeto fictício sem
         fins comerciais.</p>
 </footer> <!--Fim Footer-->
 

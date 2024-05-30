@@ -12,7 +12,7 @@
 </head>
 <body class="m-0 p-0">
 
-    <nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark sticky-top"><!-- Inicio NavBar -->
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -264,10 +264,9 @@
         </form>
     </div> <!-- Fim Form -->
 
-    <footer class="text-center bg-black"> <!--Inicio Footer-->
-        <p class="py-1 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem fins comerciais.</p>
+    <footer class="text-center bg-black sticky-bottom"> <!--Inicio Footer-->
+        <p class="py-3 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem fins comerciais.</p>
     </footer> <!--Fim Footer-->
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
