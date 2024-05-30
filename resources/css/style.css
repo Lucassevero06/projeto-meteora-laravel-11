@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, p, a {
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades{
+    width: 325px;
+}
+
+.texto-cor-verde {
+    color: #DAFF01;
+}
+
+.mark-cor-verde {
+    background-color: #DAFF01;
+}
+
+.botao-lilas {
+    background-color: #9353FF;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
