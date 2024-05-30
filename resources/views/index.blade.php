@@ -9,6 +9,45 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style> {{--Inicio style geral--}}
+        body {
+            height: 100vh;
+        }
+
+        h1, h2, h3, h4, h5, p, a {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .texto-menor {
+            font-size: 13px;
+        }
+
+        .divs-facilidades{
+            width: 325px;
+        }
+
+        .texto-cor-verde {
+            color: #DAFF01;
+        }
+
+        .mark-cor-verde {
+            background-color: #DAFF01;
+        }
+
+        .botao-lilas {
+            background-color: #9353FF;
+        }
+
+        .posicao{
+            top: 40%;
+        }
+
+        @media(max-width: 767px){
+            .posicao{
+                top:60%;
+            }
+        }
+    </style> {{--Fim style geral--}}
 </head>
 <body class="m-0 p-0">
 
@@ -264,7 +303,7 @@
         </form>
     </div> <!-- Fim Form -->
 
-    <footer class="text-center bg-black sticky-bottom"> <!--Inicio Footer-->
+    <footer class="text-center bg-black"> <!--Inicio Footer-->
         <p class="py-3 text-light">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Lucas | Projeto fictício sem fins comerciais.</p>
     </footer> <!--Fim Footer-->
 

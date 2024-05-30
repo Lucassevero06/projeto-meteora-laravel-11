@@ -10,10 +10,49 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style> {{--Inicio style geral--}}
+        body {
+            height: 100vh;
+        }
+
+        h1, h2, h3, h4, h5, p, a {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .texto-menor {
+            font-size: 13px;
+        }
+
+        .divs-facilidades{
+            width: 325px;
+        }
+
+        .texto-cor-verde {
+            color: #DAFF01;
+        }
+
+        .mark-cor-verde {
+            background-color: #DAFF01;
+        }
+
+        .botao-lilas {
+            background-color: #9353FF;
+        }
+
+        .posicao{
+            top: 40%;
+        }
+
+        @media(max-width: 767px){
+            .posicao{
+                top:60%;
+            }
+        }
+    </style> {{--Fim style geral--}}
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-black navbar-dark"><!-- Inicio NavBar -->
+<nav class="navbar navbar-expand-md bg-black navbar-dark fixed-top"><!-- Inicio NavBar -->
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><h1 class="m-0"><img class="d-block" src="../assets/logo-meteora.png" alt="logo-meteora"></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +84,7 @@
     </div>
 </nav><!-- Fim NavBar -->
 
-<main style="min-height: 100%;" class="pt-5 w-100 container d-flex flex-column align-items-center justify-content-center"> <!--Inicio Form-->
+<main style="min-height: 100%;" class="pt-5 pt-lg-1 w-100 container d-flex flex-column align-items-center justify-content-center"> <!--Inicio Form-->
     <form action="#" class="mt-4 form-control border border-dark p-4 rounded-4 w-75" style="max-width: 600px;">
         <div>
             <h3 class="text-center text-dark mb-4">Fale Conosco</h3>
